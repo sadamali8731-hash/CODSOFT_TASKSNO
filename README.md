@@ -1,34 +1,33 @@
-# CODSOFT Frontend Development Internship
-# Personal Portfolio Website
+# CodSoft Frontend Development Internship
 
-A responsive personal portfolio website created as part of my **CodSoft Frontend Development Internship**.
+This repository contains my projects completed during the **CodSoft Frontend Development Internship**.
 
-### 🌐 Live Demo
+## 🚀 Projects
 
-https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/portfolio/
+### 1. Personal Portfolio
 
-### 🛠️ Technologies
+A responsive personal portfolio website showcasing my skills, projects, resume, and contact information.
 
-* HTML5
-* CSS3
-* JavaScript
-* Google Fonts & Icons
+🔗 **Live Demo:** https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/portfolio/
 
-### ✨ Features
+### 2. Task Manager
 
-* Responsive design
-* About, Skills, Projects & Contact sections
-* Interactive navigation
-* Hover animations
-* Downloadable resume
-* Contact form validation
+A responsive task management application with add, edit, delete, search, filtering, categories, priorities, and Local Storage.
 
-### 👨‍💻 Author
+🔗 **Live Demo:** https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/task%20maneger/
+
+### 3. Expense Tracker
+
+A personal expense tracking application for managing income and expenses, calculating balance, and viewing transaction history.
+
+🔗 **Live Demo:** https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/expense%20tracker/
+
+## 🛠️ Technologies
+
+HTML5 • CSS3 • JavaScript • Local Storage • Google Icons
+
+## 👨‍💻 Author
 
 **Sadam Ali Ahmed**
-
 MCA – Artificial Intelligence & Machine Learning
 Suresh Gyan Vihar University
-
-
-
