@@ -4,19 +4,19 @@ This repository contains my projects completed during the **CodSoft Frontend Dev
 
 ## 🚀 Projects
 
-### 1. Personal Portfolio
+### 1. TASK-1-Personal Portfolio
 
 A responsive personal portfolio website showcasing my skills, projects, resume, and contact information.
 
 🔗 **Live Demo:** https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/portfolio/
 
-### 2. Task Manager
+### 2. TASK-2-Task Manager
 
 A responsive task management application with add, edit, delete, search, filtering, categories, priorities, and Local Storage.
 
 🔗 **Live Demo:** https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/task%20maneger/
 
-### 3. Expense Tracker
+### 3. TASK-3-Expense Tracker
 
 A personal expense tracking application for managing income and expenses, calculating balance, and viewing transaction history.
 
