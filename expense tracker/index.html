@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Expense Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div>
+                <h1>Expense Tracker</h1>
+                <p>Know where your money goes.</p>
+            </div>
+            <div class="tools">
+                <select id="currency" aria-label="Currency">
+                    <option value="USD">USD $</option>
+                    <option value="EUR">EUR €</option>
+                    <option value="GBP">GBP £</option>
+                    <option value="INR">INR ₹</option>
+                    <option value="AED">AED</option>
+                    <option value="KES">KES</option>
+                    <option value="SOS">SOS</option>
+                    <option value="ETB">ETB</option>
+                </select>
+                <button class="theme" id="export" type="button">Export CSV</button>
+                <button class="theme" id="theme" type="button" aria-label="Toggle theme">Theme</button>
+            </div>
+        </header>
+
+        <section class="cards" aria-label="Summary">
+            <div class="card"><small>Balance</small><strong id="bal">0</strong><em id="balNote">&nbsp;</em></div>
+            <div class="card"><small>Total income</small><strong class="inc" id="inc">0</strong><em id="incN">0
+                    transactions</em></div>
+            <div class="card"><small>Total expenses</small><strong class="exp" id="exp">0</strong><em id="expN">0
+                    transactions</em></div>
+            <div class="card"><small>Top spending</small><strong id="top">—</strong><em id="topN">&nbsp;</em></div>
+        </section>
+
+        <div class="grid">
+            <div class="stack">
+                <div class="card">
+                    <h2 id="formTitle">Add transaction</h2>
+                    <div class="seg" role="group" aria-label="Type">
+                        <button type="button" data-type="expense" class="on">Expense</button>
+                        <button type="button" data-type="income">Income</button>
+                    </div>
+                    <label for="title">Description</label>
+                    <input id="title" maxlength="60" placeholder="e.g. Groceries">
+                    <label for="amount">Amount</label>
+                    <input id="amount" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0.00">
+                    <label for="category">Category</label>
+                    <select id="category"></select>
+                    <label for="date">Date</label>
+                    <input id="date" type="date">
+                    <button class="btn" id="save" type="button">Add transaction</button>
+                    <button class="btn ghost" id="cancel" type="button" hidden>Cancel edit</button>
+                </div>
+                <div class="card">
+                    <h2>Spending by category</h2>
+                    <div id="breakdown"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Transaction history</h2>
+                <div class="bar">
+                    <select id="fType" aria-label="Filter by type">
+                        <option value="all">All types</option>
+                        <option value="income">Income</option>
+                        <option value="expense">Expenses</option>
+                    </select>
+                    <select id="fCat" aria-label="Filter by category"></select>
+                    <input id="fSearch" type="search" placeholder="Search…" aria-label="Search">
+                </div>
+                <div id="list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
