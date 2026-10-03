@@ -36,8 +36,8 @@ const projects = [
     c: "web",
     i: "a",
     img: "",
-    demo: "#",
-    code: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/expense%20tracker/",
+    demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/expense%20tracker/",
+    code: "",
   },
   {
     t: "Task Manager",
@@ -46,8 +46,8 @@ const projects = [
     c: "web",
     i: "d",
     img: "",
-    demo: "#",
-    code: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/task%20maneger/",
+    demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/task%20maneger/",
+    code: "",
   },
 ]
 
@@ -63,7 +63,7 @@ $("#coreTags").innerHTML = coreSkills.map((x) => `<span>${x}</span>`).join("")
 $("#grid").innerHTML = projects
   .map(
     (p) =>
-      `<article class="card reveal" data-c="${p.c}"><div class="thumb">${p.img ? `<img src="${p.img}" alt="${p.t} screenshot">` : thumbs[p.i]}</div><div class="body"><span class="stack">${p.s}</span><h3>${p.t}</h3><p>${p.d}</p><div class="lnk"><a href="${p.demo}" target="_blank" rel="noopener">Live demo →</a><a href="${p.code}" target="_blank" rel="noopener">Source code →</a></div></div></article>`,
+      `<article class="card reveal" data-c="${p.c}"><div class="thumb">${p.img ? `<img src="${p.img}" alt="${p.t} screenshot">` : thumbs[p.i]}</div><div class="body"><span class="stack">${p.s}</span><h3>${p.t}</h3><p>${p.d}</p><div class="lnk"><a href="${p.demo}" target="_blank" rel="noopener">Live demo →</a></div></div></article>`,
   )
   .join("")
 $("#yr").textContent = new Date().getFullYear()
