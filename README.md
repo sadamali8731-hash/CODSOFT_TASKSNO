@@ -138,6 +138,4 @@ Frontend Development Intern at CodSoft
 **Internship:** Frontend Development
 **Tasks Completed:** 3
 
-## 📄 License
 
-This repository is created for educational and internship purposes.
