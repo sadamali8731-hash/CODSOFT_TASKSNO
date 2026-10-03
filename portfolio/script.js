@@ -28,26 +28,24 @@ const thumbs = {
   d: '<svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice"><rect width="300" height="170" fill="#e8e4d8"/><rect x="14" y="12" width="272" height="170" rx="8" fill="#fff"/><rect x="14" y="12" width="272" height="16" rx="8" fill="#f1f2f7"/><rect x="14" y="20" width="272" height="8" fill="#f1f2f7"/><circle cx="26" cy="20" r="2.5" fill="#f0553c"/><circle cx="34" cy="20" r="2.5" fill="#f5b942"/><circle cx="42" cy="20" r="2.5" fill="#3cb371"/><rect x="14" y="28" width="52" height="154" fill="#14182b"/><text x="22" y="42" font-family="sans-serif" font-size="7" font-weight="700" fill="#fff">Tasks</text><rect x="18" y="50" width="44" height="12" rx="3" fill="#f0553c"/><g font-family="sans-serif" font-size="5.5" fill="#fff"><text x="23" y="58">My Tasks</text></g><g font-family="sans-serif" font-size="5.5" fill="#a3a8c3"><text x="23" y="76">Today</text><text x="23" y="92">Completed</text></g><text x="76" y="44" font-family="sans-serif" font-size="9" font-weight="700" fill="#14182b">My Tasks</text><rect x="232" y="34" width="44" height="14" rx="4" fill="#f0553c"/><text x="254" y="43.5" text-anchor="middle" font-family="sans-serif" font-size="6.5" font-weight="700" fill="#fff">+ Add task</text><text x="76" y="56" font-family="sans-serif" font-size="5.5" fill="#6b7090">6 of 10 completed</text><rect x="76" y="60" width="200" height="4" rx="2" fill="#e4e1d8"/><rect x="76" y="60" width="120" height="4" rx="2" fill="#f0553c"/><rect x="76" y="70" width="200" height="18" rx="5" fill="#f6f7fb"/><rect x="82" y="75" width="8" height="8" rx="2" fill="#fff" stroke="#b9bdd0"/><text x="96" y="81.5" font-family="sans-serif" font-size="6.5" fill="#14182b">Design landing page</text><rect x="240" y="74.5" width="30" height="9" rx="4.5" fill="#fde1dc"/><text x="255" y="81.0" text-anchor="middle" font-family="sans-serif" font-size="5" font-weight="700" fill="#d9402b">High</text><rect x="76" y="92" width="200" height="18" rx="5" fill="#f6f7fb"/><rect x="82" y="97" width="8" height="8" rx="2" fill="#fff" stroke="#b9bdd0"/><text x="96" y="103.5" font-family="sans-serif" font-size="6.5" fill="#14182b">Fix login bug</text><rect x="240" y="96.5" width="30" height="9" rx="4.5" fill="#fdf0cc"/><text x="255" y="103.0" text-anchor="middle" font-family="sans-serif" font-size="5" font-weight="700" fill="#b7791f">Medium</text><rect x="76" y="114" width="200" height="18" rx="5" fill="#f6f7fb"/><rect x="82" y="119" width="8" height="8" rx="2" fill="#188038"/><path d="M84 123 l2 2 3.5-4" stroke="#fff" stroke-width="1.4" fill="none"/><text x="96" y="125.5" font-family="sans-serif" font-size="6.5" fill="#8a8fa8" text-decoration="line-through">Write project report</text><rect x="240" y="118.5" width="30" height="9" rx="4.5" fill="#dff3e4"/><text x="255" y="125.0" text-anchor="middle" font-family="sans-serif" font-size="5" font-weight="700" fill="#188038">Low</text><rect x="76" y="136" width="200" height="18" rx="5" fill="#f6f7fb"/><rect x="82" y="141" width="8" height="8" rx="2" fill="#188038"/><path d="M84 145 l2 2 3.5-4" stroke="#fff" stroke-width="1.4" fill="none"/><text x="96" y="147.5" font-family="sans-serif" font-size="6.5" fill="#8a8fa8" text-decoration="line-through">Team meeting notes</text><rect x="240" y="140.5" width="30" height="9" rx="4.5" fill="#dff3e4"/><text x="255" y="147.0" text-anchor="middle" font-family="sans-serif" font-size="5" font-weight="700" fill="#188038">Low</text></svg>',
 }
 const projects = [
-  // To use a real screenshot, add img:"images/expense.png" (a file next to this HTML) to a project.
+  // To use a real screenshot, add img:"images/expense.png" (a file next to index.html) to a project.
   {
     t: "Expense Tracker",
     d: "Web app to record income and expenses, group spending by category and see where the money goes.",
-    s: "Html · Css · Javascript",
+    s: "HTML · CSS · JavaScript",
     c: "web",
     i: "a",
     img: "",
     demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/expense%20tracker/",
-    code: "",
   },
   {
     t: "Task Manager",
-    d: "Full-stack task manager to create, organize and track tasks by status, with full CRUD operations.",
-    s: "Html · Css · Javascript",
+    d: "Task manager to create, organize and track tasks by status, with full CRUD operations.",
+    s: "HTML · CSS · JavaScript",
     c: "web",
     i: "d",
     img: "",
     demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/task%20maneger/",
-    code: "",
   },
 ]
 
